@@ -1,0 +1,12 @@
+ .liscense-container{
+    display: flex;
+    text-align: center;
+    width: 700px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 50px;
+    margin: 20px;
+ }
+
+  .image-container{
+    width: 30px;
+  }
