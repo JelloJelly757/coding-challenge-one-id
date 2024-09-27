@@ -1,36 +1,35 @@
 .image-container img {
-  width: 70%;
+  width: 40%;
   height: auto;
   border-radius: 10px;
-  margin-left: 20px;
+  padding-left: 30px; 
+  padding-bottom: 30px;
 }
 
-.liscense-container {
-  display: flex;
-  text-align: center;
-  width: 650px;
+.liscense-container { 
+  width: 750px;
   border: 3px solid rgb(0, 0, 0);
-  padding: 50px;
-  margin: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
   display: flex;
   align-items: flex-start;
+  flex-direction: column;
+  background-color: rgba(194, 226, 248, 0.58)
 }
 
 .text-image-container {
   display: flex;
   flex-direction: row; 
+  align-items: center;
+  gap: 10px; 
 }
 
 .text-container {
-  text-align: end;
   text-align: left;
-  margin-right: 20px;
 }
 
 .heading-container {
   text-align: left;
   width: 100%;
-  padding-top: 0;
+  padding-left: 30px;  
 }
