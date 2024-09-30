@@ -1,9 +1,9 @@
 .image-container img {
-  width: 40%;
+  width: 80%;
   height: auto;
   border-radius: 10px;
   padding-left: 30px; 
-  padding-bottom: 30px;
+  padding-bottom: 30px; 
 }
 
 .liscense-container { 
@@ -14,18 +14,22 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  background-color: rgba(194, 226, 248, 0.58)
+  background-color: rgba(194, 226, 248, 0.58); 
 }
 
 .text-image-container {
   display: flex;
   flex-direction: row; 
-  align-items: center;
-  gap: 10px; 
+  align-items: center; 
 }
 
 .text-container {
-  text-align: left;
+  margin-right: 30px;  
+}
+
+.name {
+  display: flex;
+  width: 400px; 
 }
 
 .heading-container {
